@@ -12,7 +12,7 @@
 
 .heading {
   background-color: rgb(255,116,42);
-  width: 100%;
+  /* width: 100%; */
   height: 58px;
   padding: 5px;
   display: flex;
@@ -33,12 +33,14 @@
 }
 
 .search-container {
+  display: inline;
   width: 900px;
   height: 42px;
-  margin-right: 20px;
+  margin: 0;
+  /* margin-right: 20px;
   margin-left: 20px;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: auto; */
 }
 
 .searchBox {
@@ -52,7 +54,25 @@
 }
 
 .gear-icon {
-  width: 32px;
+  width: 24px;
+}
+
+.filter-menus {
+  width: 100%;
+  height: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  font-size: 12px;
+}
+
+.listing {
+  list-style-type: none;
+  margin: 0%;
+  padding-top: 0;
+  padding-left: 15px;
 }
 
 .articles {
